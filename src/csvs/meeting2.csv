@@ -1,0 +1,7 @@
+Full Name,User Action,Timestamp,Email,Role
+Anna Nowak,Joined,2024-06-21T09:00:00,anna.nowak@example.com,Attendee
+Jan Kowalski,Joined,2024-06-21T09:05:00,jan.kowalski@example.com,Attendee
+Maria Organizer,Joined,2024-06-21T09:00:00,maria.organizer@example.com,Organizer
+Anna Nowak,Left,2024-06-21T09:45:00,anna.nowak@example.com,Attendee
+Jan Kowalski,Left,2024-06-21T09:50:00,jan.kowalski@example.com,Attendee
+Maria Organizer,Left,2024-06-21T09:55:00,maria.organizer@example.com,Organizer
