@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import FileUpload from "./components/FileUpload";
 import SummaryTable from "./components/SummaryTable";
-import { processAttendanceFiles } from "./utils/parseAttendance";
+import { detectAndParseAttendance } from "./utils/detectAndParseAttendance";
 import { exportToExcel } from "./utils/exportToExcel";
 import './App.css';
 
@@ -12,7 +12,7 @@ function App() {
   const handleFiles = async (files) => {
     setError("");
     try {
-      const result = await processAttendanceFiles(files);
+      const result = await detectAndParseAttendance(files);
       setSummary(result);
     } catch (e) {
       setError(e.message);
